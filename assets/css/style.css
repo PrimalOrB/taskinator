@@ -103,6 +103,18 @@ footer {
   border: 2px solid var(--grey);
 }
 
+#tasks-to-do li {
+  background-color: hsl(0, 26%, 85%);
+}
+
+#tasks-in-progress li {
+  background-color: hsl(60, 26%, 85%);
+}
+
+#tasks-completed li {
+  background-color: hsl(131, 26%, 85%);
+}
+
 .task-item {
   color: var(--grey);
   padding: 15px 15px;
@@ -228,5 +240,4 @@ footer {
   .task-list-wrapper {
     flex-basis: 100%;
   }
-
 }
